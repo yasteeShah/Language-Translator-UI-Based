@@ -20,19 +20,14 @@ UI using JavaScript
 
 #### New Features in version 0.14.0
 - Optionally support user login via Cognito User Pool and supports other Identity Providers
-<img src="./img/f.0.14.0_login.png" width=300>
 
 - Improved clickable response card button formatting
-<img src="./img/f.0.14.0_buttonA.png" width=300>
-<img src="./img/f.0.14.0_buttonB.png" width=300>
 
 - Global setting to enable / disable display of response card titles
 
 - Support of Markdown from Lex 
-<img src="./img/f.0.14.0_markdown.png" width=300>
 
 - Support of Multiple messages in a response from Lex
-<img src="./img/f.0.14.0_multimessages.png" width=300>
 
 - Additional lex-web-ui parameters can be configured via CloudFormation template
 
@@ -40,20 +35,13 @@ UI using JavaScript
 
 #### Ways the lex-web-ui chatbot can be deployed
 
-It can be used as a full page chatbot UI:
-
-<img src="./img/webapp-full.gif" width=480>
-
-Or embedded into an existing site as a chatbot widget:
-
-<img src="./img/webapp-iframe.gif" width=480>
+It can be used as a full page chatbot UI Or embedded into an existing site as a chatbot widget:
 
 # Getting Started
 The easiest way to test drive the chatbot UI is to deploy it using the
 [AWS CloudFormation](https://aws.amazon.com/cloudformation/) templates
 provided by this project. Once you have launched the CloudFormation stack,
 you will get a fully working demo site hosted in your account.
-
 
 Click this button to launch it:
 
